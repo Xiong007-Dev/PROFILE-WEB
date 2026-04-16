@@ -3,6 +3,9 @@
     margin: 0;
     background-color: rgb(253, 254, 225);
 }
+html{
+    font-size: 100%;
+}
 body{
     padding: 0;
     margin: 0;
@@ -51,6 +54,12 @@ ul{
     width: 100%;
     margin-bottom: 20px;
 }
+.mainvisual img{
+    width: 100%;
+    height: auto;
+    display: block; /* remove small gap */
+    border-radius: 10px;
+}
 .introduction{
     margin-bottom: 20px;
 }
@@ -71,11 +80,15 @@ ul{
 }
 .img-profile{
     width: 100%;
-    margin-right: 20px;
+    margin: 0;
+}
+.img-profile img{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
 }
 .tex-profile h3{
     font-size: large;
-    text-align: center;
     padding-bottom: 10px;
 }
 .tex-profile{
@@ -98,7 +111,10 @@ ul{
 }
 .footer{
     text-align: center;
-    font-size: 300;
+    font-size: x-large;
     font-weight: bold;
-    font-family: "Racing Sans One", sans-serif;
+    font-family: "Lavishly Yours", cursive;
+}
+@media screen and (max-width:767px) {
+    
 }
