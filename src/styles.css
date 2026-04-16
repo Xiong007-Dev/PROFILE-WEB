@@ -47,4 +47,20 @@ ul{
     font-size: large;
     font-weight: bold;
 }
-
+.mainvisual{
+    width: 1000%;
+    margin-bottom: 20px;
+}
+.introduction{
+    margin-bottom: 20px;
+}
+.introduction h2{
+    text-align: center;
+    font-size: large;
+}
+.introduction p{
+    padding: 2px;
+    font-size: medium;
+    margin-bottom: 2px;
+    text-indent: 1ex;
+}
